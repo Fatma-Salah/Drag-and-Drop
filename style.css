@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    padding: 40px;
+    background-color: cornflowerblue;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    justify-content: center;
+}
+.input{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20xp;
+    padding: 40px;
+    width: 400px;
+    gap: 4px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+input{
+    padding: 6px;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+button{
+    background-color: cornflowerblue;
+    border: none;
+    font-size: 40px;
+    padding: 6px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    margin: 80px auto;
+}
+.box{
+    background-color: white;
+    padding: 7px 15px;
+    font-size: 30px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.item{
+    background-color: rgb(78, 124, 209);
+    padding: 5px;
+    border-radius: 6px;
+    margin: 4px ;
+    padding: 7px;
+    width: 100%;
+    cursor:move;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
